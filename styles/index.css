@@ -23,7 +23,9 @@ body{
     background-color: #31473A;
     padding: 7% 4%;
 }
-
+.left-container h2{
+    text-transform: uppercase;
+}
 .profile{
     display: flex;
     flex-wrap: wrap;
@@ -34,6 +36,11 @@ body{
 }
 .profile p{
     margin-bottom: 5%;
+}
+.center__name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .img-box img{
@@ -77,4 +84,8 @@ body{
     /* border-bottom: 2px solid #EDF4F2; */
     border-top: 2px solid #EDF4F2;
     padding: 2%;
+}
+.right-container h2{
+    text-transform: uppercase;
+    margin-bottom: 5%;
 }
